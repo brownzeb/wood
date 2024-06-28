@@ -1,6 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # wood
 =======
+=======
+>>>>>>> f2e8b9b (Initial commit)
 # wood pallate
 
 This template should help get you started developing with Vue 3 in Vite.
@@ -36,4 +39,10 @@ npm run build
 ```sh
 npm run lint
 ```
+<<<<<<< HEAD
 >>>>>>> dc4b1a2 (wood pallate)
+=======
+=======
+# wood
+>>>>>>> 9190b28 (Initial commit)
+>>>>>>> f2e8b9b (Initial commit)
