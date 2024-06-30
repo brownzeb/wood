@@ -132,7 +132,7 @@
 
 @media (max-width: 480px) {
   .feature .box-container .box {
-    width: 365px;
+    width: 315px;
     padding: 1rem 1rem;
   }
   .feature .box-container .box img {
@@ -153,7 +153,7 @@
 
 @media (max-width: 360px) {
   .feature .box-container .box {
-    width: 280px;
+    width: 55%;
     padding: 0.5rem 0.5rem;
   }
   .feature .box-container .box img {

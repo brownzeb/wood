@@ -129,7 +129,8 @@
 
 @media (max-width: 480px) {
   .category .box-container .box {
-    width: 368px;
+    width: 315px;
+
     padding: 1rem 0.5rem;
   }
   .category .box-container .box img {
@@ -150,7 +151,7 @@
 
 @media (max-width: 360px) {
   .category .box-container .box {
-    width: 280px;
+    width: 55%;
     padding: 0.5rem 0.5rem;
   }
   .category .box-container .box img {

@@ -192,7 +192,8 @@
 
 @media (max-width: 480px) {
   .blogs .box-container .box {
-    width: 369px;
+    width: 315px;
+
     /* background-color: red; */
   }
   .blogs .box-container .box img {
