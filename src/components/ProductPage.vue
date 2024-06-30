@@ -113,7 +113,6 @@
             <button>Details</button>
           </div>
         </div>
-        <!-- Add more product elements as needed -->
       </div>
     </div>
   </div>
@@ -121,20 +120,24 @@
 
 <style scoped>
 .container {
+  display: flex;
   justify-content: center;
   align-items: center;
   padding: 20px;
 }
+
 .product-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
 .products {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 20px;
 }
+
 .product {
   background: #fff;
   border-radius: 10px;
@@ -143,10 +146,12 @@
   max-width: 300px;
   text-align: center;
 }
+
 .product img {
   width: 100%;
   border-radius: 10px 10px 0 0;
 }
+
 .product h3 {
   font-size: 1.5em;
   margin: 10px 0;
@@ -156,6 +161,7 @@
   font-size: 1em;
   color: #555;
 }
+
 .buttons {
   display: flex;
   justify-content: center;
@@ -172,6 +178,7 @@ button {
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
+
 button:hover {
   background-color: #0056b3;
 }
@@ -179,5 +186,37 @@ button:hover {
 button:focus {
   outline: none;
   box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Media Queries */
+@media (max-width: 1200px) {
+  .products {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 992px) {
+  .products {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .products {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 576px) {
+  .product {
+    max-width: 100%;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 350px) {
+  .product {
+    max-width: 100%;
+    grid-template-columns: 1fr 1fr;
+  }
 }
 </style>
