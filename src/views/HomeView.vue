@@ -3,6 +3,7 @@
     <HeaderComp />
     <main>
       <HeroComp />
+      <AboutSection />
       <FeatureComp />
       <CategoryComp />
       <ReviewsComp />
@@ -20,6 +21,7 @@ import CategoryComp from '@/components/CategorySection.vue'
 import ReviewsComp from '@/components/ReviewsSection.vue'
 import BlogSection from '@/components/BlogSection.vue'
 import FooterSection from '@/components/FooterSection.vue'
+import AboutSection from '@/components/AboutSection.vue'
 </script>
 
 <style setup>

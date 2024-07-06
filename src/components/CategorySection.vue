@@ -4,28 +4,28 @@
     <div class="box-container">
       <div class="box">
         <img src="../assets/wood.jpg" alt="" width="400px" height="400px" />
-        <h3>Vegetables</h3>
+        <h3>wood pallate</h3>
+        <p>upto 45% off</p>
+        <router-link to="" class="btn">shop now</router-link>
+      </div>
+
+      <div class="box">
+        <img src="../assets/laserpen1.jpg" alt="" width="400px" height="400px" />
+        <h3>Laser-pen</h3>
         <p>upto 45% off</p>
         <router-link to="" class="btn">shop now</router-link>
       </div>
 
       <div class="box">
         <img src="../assets/wood.jpg" alt="" width="400px" height="400px" />
-        <h3>Vegetables</h3>
+        <h3>wood pallate</h3>
         <p>upto 45% off</p>
         <router-link to="" class="btn">shop now</router-link>
       </div>
 
       <div class="box">
-        <img src="../assets/wood.jpg" alt="" width="400px" height="400px" />
-        <h3>Vegetables</h3>
-        <p>upto 45% off</p>
-        <router-link to="" class="btn">shop now</router-link>
-      </div>
-
-      <div class="box">
-        <img src="../assets/wood.jpg" alt="" width="400px" height="400px" />
-        <h3>Vegetables</h3>
+        <img src="../assets/saw.jpg" alt="" width="400px" height="400px" />
+        <h3>laser-pen</h3>
         <p>upto 45% off</p>
         <router-link to="" class="btn">shop now</router-link>
       </div>
@@ -129,7 +129,7 @@
 
 @media (max-width: 480px) {
   .category .box-container .box {
-    width: 315px;
+    width: 343px;
 
     padding: 1rem 0.5rem;
   }

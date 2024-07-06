@@ -14,7 +14,7 @@
       </div>
 
       <div class="box">
-        <img src="../assets/woods.jpg" alt="" width="400px" height="400px" />
+        <img src="../assets/warehouse.jpg" alt="" width="400px" height="400px" />
         <h3>free delivery</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quibusdam similique est
@@ -24,7 +24,7 @@
       </div>
 
       <div class="box">
-        <img src="../assets/sample.jpg" alt="" width="400px" height="400px" />
+        <img src="../assets/laserpen.jpg" alt="" width="400px" height="400px" />
         <h3>easy payment</h3>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quibusdam similique est
@@ -57,6 +57,7 @@
 .feature .box-container .box img {
   margin: 1rem;
   height: 15rem;
+  width: 20rem;
 }
 .feature .box-container .box h3 {
   font-size: 2.5rem;
@@ -132,7 +133,7 @@
 
 @media (max-width: 480px) {
   .feature .box-container .box {
-    width: 315px;
+    width: 343px;
     padding: 1rem 1rem;
   }
   .feature .box-container .box img {
@@ -153,7 +154,7 @@
 
 @media (max-width: 360px) {
   .feature .box-container .box {
-    width: 55%;
+    width: 56%;
     padding: 0.5rem 0.5rem;
   }
   .feature .box-container .box img {

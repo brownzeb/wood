@@ -2,121 +2,31 @@
   <div class="container">
     <div class="product-container">
       <div class="products">
-        <div class="product">
-          <img src="../assets/wood.jpg" alt="Wood pallate" />
-          <h3>Wood pallate</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur soluta eveniet
-            asperiores? Consequuntur asperiores quibusdam rem laudantium, dolorum assumenda, id
-            ullam blanditiis repellendus ducimus quia quis voluptas quidem ex iure!
-          </p>
+        <div class="product" v-for="product in productStore.products" :key="product.id">
+          <img :src="product.image" alt="" />
+          <h3>{{ product.title }}</h3>
+          <p>{{ product.description }}</p>
+          <h2 class="prize">{{ product.prize }}</h2>
           <div class="buttons">
-            <button>Add to cart</button>
-            <button>Details</button>
-          </div>
-        </div>
-        <!-- Add more product elements as needed -->
-        <div class="product">
-          <img src="../assets/wood.jpg" alt="Wood pallate" />
-          <h3>Wood pallate</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur soluta eveniet
-            asperiores? Consequuntur asperiores quibusdam rem laudantium, dolorum assumenda, id
-            ullam blanditiis repellendus ducimus quia quis voluptas quidem ex iure!
-          </p>
-          <div class="buttons">
-            <button>Add to cart</button>
-            <button>Details</button>
-          </div>
-        </div>
-        <!-- Add more product elements as needed -->
-        <div class="product">
-          <img src="../assets/wood.jpg" alt="Wood pallate" />
-          <h3>Wood pallate</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur soluta eveniet
-            asperiores? Consequuntur asperiores quibusdam rem laudantium, dolorum assumenda, id
-            ullam blanditiis repellendus ducimus quia quis voluptas quidem ex iure!
-          </p>
-          <div class="buttons">
-            <button>Add to cart</button>
-            <button>Details</button>
-          </div>
-        </div>
-        <!-- Add more product elements as needed -->
-        <div class="product">
-          <img src="../assets/wood.jpg" alt="Wood pallate" />
-          <h3>Wood pallate</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur soluta eveniet
-            asperiores? Consequuntur asperiores quibusdam rem laudantium, dolorum assumenda, id
-            ullam blanditiis repellendus ducimus quia quis voluptas quidem ex iure!
-          </p>
-          <div class="buttons">
-            <button>Add to cart</button>
-            <button>Details</button>
-          </div>
-        </div>
-        <!-- Add more product elements as needed -->
-        <div class="product">
-          <img src="../assets/wood.jpg" alt="Wood pallate" />
-          <h3>Wood pallate</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur soluta eveniet
-            asperiores? Consequuntur asperiores quibusdam rem laudantium, dolorum assumenda, id
-            ullam blanditiis repellendus ducimus quia quis voluptas quidem ex iure!
-          </p>
-          <div class="buttons">
-            <button>Add to cart</button>
-            <button>Details</button>
-          </div>
-        </div>
-        <!-- Add more product elements as needed -->
-        <div class="product">
-          <img src="../assets/wood.jpg" alt="Wood pallate" />
-          <h3>Wood pallate</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur soluta eveniet
-            asperiores? Consequuntur asperiores quibusdam rem laudantium, dolorum assumenda, id
-            ullam blanditiis repellendus ducimus quia quis voluptas quidem ex iure!
-          </p>
-          <div class="buttons">
-            <button>Add to cart</button>
-            <button>Details</button>
-          </div>
-        </div>
-        <!-- Add more product elements as needed -->
-        <div class="product">
-          <img src="../assets/wood.jpg" alt="Wood pallate" />
-          <h3>Wood pallate</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur soluta eveniet
-            asperiores? Consequuntur asperiores quibusdam rem laudantium, dolorum assumenda, id
-            ullam blanditiis repellendus ducimus quia quis voluptas quidem ex iure!
-          </p>
-          <div class="buttons">
-            <button>Add to cart</button>
-            <button>Details</button>
-          </div>
-        </div>
-        <!-- Add more product elements as needed -->
-        <div class="product">
-          <img src="../assets/wood.jpg" alt="Wood pallate" />
-          <h3>Wood pallate</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur soluta eveniet
-            asperiores? Consequuntur asperiores quibusdam rem laudantium, dolorum assumenda, id
-            ullam blanditiis repellendus ducimus quia quis voluptas quidem ex iure!
-          </p>
-          <div class="buttons">
-            <button>Add to cart</button>
-            <button>Details</button>
+            <button @click="toggleCart(product.id)">
+              {{ product.cart ? 'Remove from cart' : 'Add to cart' }}
+            </button>
           </div>
         </div>
       </div>
     </div>
   </div>
 </template>
+
+<script setup>
+import { useProductStore } from '@/stores/productStore.js'
+
+const productStore = useProductStore()
+
+const toggleCart = (productId) => {
+  productStore.toggleCart(productId)
+}
+</script>
 
 <style scoped>
 .container {
@@ -130,6 +40,12 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+.prize {
+  font-size: 20px;
+  margin-top: 20px;
+  color: red;
 }
 
 .products {
@@ -153,12 +69,12 @@
 }
 
 .product h3 {
-  font-size: 1.5em;
+  font-size: large;
   margin: 10px 0;
 }
 
 .product p {
-  font-size: 1em;
+  font-size: 1.3em;
   color: #555;
 }
 

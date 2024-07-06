@@ -18,48 +18,19 @@
     </div>
 
     <div class="shopping-cart" v-if="addCart">
-      <div class="box">
-        <div class="delete-icon">D</div>
-        <img src="../assets/wood.jpg" alt="Wood pallate" />
+      <div class="box" v-for="product in productStore.carts" :key="product.id">
+        <div class="delete-icon" @click="deleteFromCart(product.id)">D</div>
+        <img :src="product.image" alt="Wood pallate" />
         <div class="content">
-          <h3>watermelon</h3>
-          <span class="price">$4.99</span>
-          <span class="quantity">qty : 1</span>
+          <h3>{{ product.title }}</h3>
+          <span class="price">{{ product.prize }}</span>
+          <input v-model="product.quantity" type="number" class="quantity" placeholder="quantity" />
         </div>
       </div>
-
-      <div class="box">
-        <div class="delete-icon">D</div>
-        <img src="../assets/wood.jpg" alt="Wood pallate" />
-        <div class="content">
-          <h3>watermelon</h3>
-          <span class="price">$4.99</span>
-          <span class="quantity">qty : 1</span>
-        </div>
-      </div>
-
-      <div class="box">
-        <div class="delete-icon">D</div>
-        <img src="../assets/wood.jpg" alt="Wood pallate" />
-        <div class="content">
-          <h3>watermelon</h3>
-          <span class="price">$4.99</span>
-          <span class="quantity">qty : 1</span>
-        </div>
-      </div>
-
-      <div class="box">
-        <div class="delete-icon">D</div>
-        <img src="../assets/wood.jpg" alt="Wood pallate" />
-        <div class="content">
-          <h3>watermelon</h3>
-          <span class="price">$4.99</span>
-          <span class="quantity">qty : 1</span>
-        </div>
-      </div>
-      <div class="total">total : $19.69/-</div>
-      <router-link to="/" class="btn">checkout</router-link>
+      <div class="total">${{ productStore.totalPrice }}</div>
+      <button class="btn" @click.prevent="checkout">checkout</button>
     </div>
+
     <form action="" class="login-form" v-if="login">
       <h3>login now</h3>
       <input type="email" placeholder="your email" class="box" />
@@ -73,6 +44,9 @@
 
 <script setup>
 import { ref } from 'vue'
+import { useProductStore } from '@/stores/productStore.js'
+
+const productStore = useProductStore()
 
 const menu = ref(false)
 const addCart = ref(false)
@@ -100,6 +74,34 @@ const toggleMenu = () => {
     login.value = false
   }
   menu.value = !menu.value
+}
+
+const checkout = () => {
+  let totalPrice = 0
+  let totalQuantity = 0
+  let orderDetails = 'Order Details:\n\n'
+
+  productStore.carts.forEach((product) => {
+    const price = parseFloat(product.prize.replace(/[^0-9.-]+/g, '')) // Removes any non-numeric characters
+    const itemTotal = price * product.quantity
+    totalPrice += itemTotal
+    totalQuantity += product.quantity
+
+    orderDetails += `Product: ${product.title}\n`
+    orderDetails += `Quantity: ${product.quantity}\n`
+    orderDetails += `Price: ${product.prize}\n`
+    orderDetails += `Total: $${itemTotal.toFixed(2)}\n\n`
+  })
+
+  orderDetails += `Total Price: $${totalPrice.toFixed(2)}\n`
+  orderDetails += `Total Quantity: ${totalQuantity}\n`
+
+  const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(orderDetails)}`
+  window.location.href = whatsappUrl
+}
+
+const deleteFromCart = (productId) => {
+  productStore.deleteCart(productId)
 }
 </script>
 
@@ -133,7 +135,7 @@ header .navbar {
   display: flex;
 }
 header .navbar a {
-  font-size: 1.7rem;
+  font-size: 1.2rem;
   margin: 0 1rem;
   color: var(--black);
 }
@@ -205,6 +207,9 @@ header .shopping-cart .box .content span {
 }
 header .shopping-cart .box .content .quantity {
   padding-left: 1rem;
+  padding: 5px 4px;
+  border-radius: 10px;
+  margin-left: 10px;
 }
 header .shopping-cart .total {
   font-size: 2.5rem;
