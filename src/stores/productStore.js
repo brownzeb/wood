@@ -11,6 +11,10 @@ import engraving from '@/assets/engraving.jpg'
 import electric from '@/assets/electric.jpg'
 import etching from '@/assets/etching.jpg'
 import lasser from '@/assets/lasser.jpg'
+import coaster from '@/assets/coaster.jpg'
+import firstproduct from '@/assets/firstproduct.jpg'
+import card1 from '@/assets/card1.jpg'
+import card2 from '@/assets/card2.jpg'
 
 export const useProductStore = defineStore('productStore', {
   state: () => ({
@@ -31,7 +35,7 @@ export const useProductStore = defineStore('productStore', {
         title: 'Block Pallets',
         description:
           'Block pallets are robust and versatile pallets designed for strength and durability. They feature a construction that utilizes blocks (typically nine) to support the top and bottom deck boards. The blocks are positioned at each corner, the center of each edge, and in the middle of the pallet, providing a strong and stable base for heavy loads. ',
-        image: blockpallate,
+        image: firstproduct,
         prize: '$2000',
         cart: false,
         quantity: 2
@@ -134,6 +138,36 @@ export const useProductStore = defineStore('productStore', {
         description:
           '  While primarily used for presentations, some advanced laser pointers can be used in light crafting for marking or tracing designs.',
         image: lasser,
+        prize: '$2000',
+        cart: false,
+        quantity: 1
+      },
+      {
+        id: 13,
+        title: 'Coaster for Drinks and for kids use',
+        description:
+          '  While primarily used for presentations, some advanced laser pointers can be used in light crafting for marking or tracing designs.',
+        image: coaster,
+        prize: '$2000',
+        cart: false,
+        quantity: 1
+      },
+      {
+        id: 14,
+        title: 'Craft wood Board',
+        description:
+          '  While primarily used for presentations, some advanced laser pointers can be used in light crafting for marking or tracing designs.',
+        image: card1,
+        prize: '$2000',
+        cart: false,
+        quantity: 1
+      },
+      {
+        id: 15,
+        title: 'Craft wood Board',
+        description:
+          '  While primarily used for presentations, some advanced laser pointers can be used in light crafting for marking or tracing designs.',
+        image: card2,
         prize: '$2000',
         cart: false,
         quantity: 1
