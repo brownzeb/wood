@@ -17,18 +17,18 @@
       </div>
 
       <div class="box">
-        <img src="../assets/wood.jpg" alt="" width="400px" height="400px" />
-        <h3>wood pallate</h3>
+        <img src="../assets/electric.jpg" alt="" width="400px" height="400px" />
+        <h3>Cutting Laser Pens</h3>
         <p>upto 45% off</p>
         <router-link to="" class="btn">shop now</router-link>
       </div>
 
-      <div class="box">
+      <!-- <div class="box">
         <img src="../assets/saw.jpg" alt="" width="400px" height="400px" />
         <h3>laser-pen</h3>
         <p>upto 45% off</p>
         <router-link to="" class="btn">shop now</router-link>
-      </div>
+      </div> -->
     </div>
   </section>
 </template>
@@ -54,6 +54,7 @@
 .category .box-container .box img {
   margin: 1rem 0;
   height: 15rem;
+  width: 20rem;
 }
 .category .box-container .box h3 {
   font-size: 2rem;

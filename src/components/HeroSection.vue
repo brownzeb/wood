@@ -1,10 +1,9 @@
 <template>
   <section class="hero">
     <div class="content">
-      <h3>fresh and <span>organic</span> product for your</h3>
+      <h3>Sustainable <span>Pallet</span> Solutions for a Greener Future</h3>
       <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione vel tempore quos saepe
-        nostrum, necessitatibus nisi, blanditiis magnam recusandae nesciunt culpa ea. Aut debitis
+        Transform your shipping with our eco-friendly, durable, and cost-effective wooden pallets.
       </p>
       <router-link to="/" class="btn">shop now</router-link>
     </div>

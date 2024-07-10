@@ -4,135 +4,125 @@
     <div class="review-slider">
       <div class="wrapper">
         <div class="box">
-          <img src="../assets/wood.jpg" alt="" />
+          <!-- <img src="../assets/wood.jpg" alt="" /> -->
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus itaque fugit
-            sunt eveniet dolorem. Vitae, omnis pariatur! Dolore labore adipisci vitae fugit, cumque
-            voluptate earum, tempore similique, repudiandae commodi suscipit.
+            "We've been using EcoPallets for years, and their products never disappoint. The wood
+            pallets are sturdy, reliable, and their commitment to sustainability is commendable.
+            Highly recommend!"
           </p>
-          <h3>john deo</h3>
-          <div class="stars">
+          <h3>Sarah Johnson</h3>
+          <!-- <div class="stars">
             <img src="../assets/logo.svg" alt="" />
             <img src="../assets/logo.svg" alt="" />
             <img src="../assets/logo.svg" alt="" />
             <img src="../assets/logo.svg" alt="" />
             <img src="../assets/logo.svg" alt="" />
-          </div>
+          </div> -->
         </div>
 
         <div class="box">
-          <img src="../assets/wood.jpg" alt="" />
+          <!-- <img src="../assets/wood.jpg" alt="" /> -->
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus itaque fugit
-            sunt eveniet dolorem. Vitae, omnis pariatur! Dolore labore adipisci vitae fugit, cumque
-            voluptate earum, tempore similique, repudiandae commodi suscipit.
+            "EcoPallets offers top-notch customer service along with their high-quality pallets.
+            They helped us find the perfect solution for our shipping needs, and we couldn't be
+            happier with the results."
           </p>
-          <h3>john deo</h3>
-          <div class="stars">
+          <h3>Michael Brown</h3>
+          <!-- <div class="stars">
             <img src="../assets/logo.svg" alt="" />
             <img src="../assets/logo.svg" alt="" />
             <img src="../assets/logo.svg" alt="" />
             <img src="../assets/logo.svg" alt="" />
             <img src="../assets/logo.svg" alt="" />
-          </div>
+          </div> -->
         </div>
 
         <div class="box">
-          <img src="../assets/wood.jpg" alt="" />
+          <!-- <img src="../assets/wood.jpg" alt="" /> -->
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus itaque fugit
-            sunt eveniet dolorem. Vitae, omnis pariatur! Dolore labore adipisci vitae fugit, cumque
-            voluptate earum, tempore similique, repudiandae commodi suscipit.
+            "Choosing EcoPallets was one of the best decisions for our business. Their pallets are
+            not only eco-friendly but also cost-effective. They've become an integral part of our
+            supply chain strategy."
           </p>
-          <h3>john deo</h3>
-          <div class="stars">
+          <h3>Emily Davis</h3>
+          <!-- <div class="stars">
             <img src="../assets/logo.svg" alt="" />
             <img src="../assets/logo.svg" alt="" />
             <img src="../assets/logo.svg" alt="" />
             <img src="../assets/logo.svg" alt="" />
             <img src="../assets/logo.svg" alt="" />
-          </div>
+          </div> -->
         </div>
 
         <div class="box">
-          <img src="../assets/wood.jpg" alt="" />
+          <!-- <img src="../assets/wood.jpg" alt="" /> -->
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus itaque fugit
-            sunt eveniet dolorem. Vitae, omnis pariatur! Dolore labore adipisci vitae fugit, cumque
-            voluptate earum, tempore similique, repudiandae commodi suscipit.
+            "We switched to EcoPallets for their sustainable practices and haven't looked back. The
+            pallets are durable and well-made, and their free delivery option is a huge bonus!"
           </p>
-          <h3>john deo</h3>
-          <div class="stars">
+          <h3>Alex Thompson</h3>
+          <!-- <div class="stars">
             <img src="../assets/logo.svg" alt="" />
             <img src="../assets/logo.svg" alt="" />
             <img src="../assets/logo.svg" alt="" />
             <img src="../assets/logo.svg" alt="" />
             <img src="../assets/logo.svg" alt="" />
-          </div>
+          </div> -->
         </div>
         <div class="box">
-          <img src="../assets/wood.jpg" alt="" />
+          <!-- <img src="../assets/wood.jpg" alt="" /> -->
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus itaque fugit
-            sunt eveniet dolorem. Vitae, omnis pariatur! Dolore labore adipisci vitae fugit, cumque
-            voluptate earum, tempore similique, repudiandae commodi suscipit.
+            "Impressed by the customization options EcoPallets offers. They listened to our
+            requirements and delivered pallets that perfectly fit our unique shipping needs. Great
+            company to work with!"
           </p>
-          <h3>john deo</h3>
-          <div class="stars">
-            <img src="../assets/logo.svg" alt="" />
-            <img src="../assets/logo.svg" alt="" />
-            <img src="../assets/logo.svg" alt="" />
-            <img src="../assets/logo.svg" alt="" />
-            <img src="../assets/logo.svg" alt="" />
-          </div>
+          <h3>Jessica Lee</h3>
+          <!--   -->
         </div>
         <div class="box">
-          <img src="../assets/wood.jpg" alt="" />
+          <!-- <img src="../assets/wood.jpg" alt="" /> -->
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus itaque fugit
-            sunt eveniet dolorem. Vitae, omnis pariatur! Dolore labore adipisci vitae fugit, cumque
-            voluptate earum, tempore similique, repudiandae commodi suscipit.
+            "EcoPallets not only provides excellent products but also educates us on the importance
+            of sustainability in logistics. Their blog has been a valuable resource for our team."
           </p>
-          <h3>john deo</h3>
-          <div class="stars">
+          <h3>David Wilson</h3>
+          <!-- <div class="stars">
             <img src="../assets/logo.svg" alt="" />
             <img src="../assets/logo.svg" alt="" />
             <img src="../assets/logo.svg" alt="" />
             <img src="../assets/logo.svg" alt="" />
             <img src="../assets/logo.svg" alt="" />
-          </div>
+          </div> -->
         </div>
         <div class="box">
-          <img src="../assets/wood.jpg" alt="" />
+          <!-- <img src="../assets/wood.jpg" alt="" /> -->
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus itaque fugit
-            sunt eveniet dolorem. Vitae, omnis pariatur! Dolore labore adipisci vitae fugit, cumque
-            voluptate earum, tempore similique, repudiandae commodi suscipit.
+            "As a small business focused on sustainability, partnering with EcoPallets was a natural
+            choice. Their commitment to eco-friendly practices aligns perfectly with our values."
           </p>
-          <h3>john deo</h3>
-          <div class="stars">
+          <h3>Rachel Carter</h3>
+          <!-- <div class="stars">
             <img src="../assets/logo.svg" alt="" />
             <img src="../assets/logo.svg" alt="" />
             <img src="../assets/logo.svg" alt="" />
             <img src="../assets/logo.svg" alt="" />
             <img src="../assets/logo.svg" alt="" />
-          </div>
+          </div> -->
         </div>
         <div class="box">
-          <img src="../assets/wood.jpg" alt="" />
+          <!-- <img src="../assets/wood.jpg" alt="" /> -->
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus itaque fugit
-            sunt eveniet dolorem. Vitae, omnis pariatur! Dolore labore adipisci vitae fugit, cumque
-            voluptate earum, tempore similique, repudiandae commodi suscipit.
+            "The team at EcoPallets goes above and beyond to ensure customer satisfaction. Their
+            attention to detail and prompt service make them stand out in the industry."
           </p>
-          <h3>john deo</h3>
-          <div class="stars">
+          <h3>Mark Garcia</h3>
+          <!-- <div class="stars">
             <img src="../assets/logo.svg" alt="" />
             <img src="../assets/logo.svg" alt="" />
             <img src="../assets/logo.svg" alt="" />
             <img src="../assets/logo.svg" alt="" />
             <img src="../assets/logo.svg" alt="" />
-          </div>
+          </div> -->
         </div>
       </div>
     </div>

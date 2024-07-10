@@ -7,31 +7,50 @@
         <img src="../assets/wood.jpg" alt="" width="400px" height="400px" />
         <h3>fresh and organic</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quibusdam similique est
-          optio quia veritatis, tempora.
+          At EcoPallets, we take pride in sourcing only the highest quality, fresh, and organic wood
+          for all our products
+        </p>
+        <router-link to="/" class="btn">read more</router-link>
+      </div>
+
+      <div class="box">
+        <img src="../assets/delivery.avif" alt="" width="400px" height="400px" />
+        <h3>free delivery</h3>
+        <p>
+          At EcoPallets, we believe in providing not only top-quality products but also exceptional
+          service. That’s why we offer free delivery on all orders, ensuring your products arrive
+          safely at your doorstep.
         </p>
         <router-link to="/" class="btn">read more</router-link>
       </div>
 
       <div class="box">
         <img src="../assets/warehouse.jpg" alt="" width="400px" height="400px" />
-        <h3>free delivery</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quibusdam similique est
-          optio quia veritatis, tempora.
-        </p>
-        <router-link to="/" class="btn">read more</router-link>
-      </div>
-
-      <div class="box">
-        <img src="../assets/laserpen.jpg" alt="" width="400px" height="400px" />
         <h3>easy payment</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quibusdam similique est
-          optio quia veritatis, tempora.
+          At EcoPallets, we strive to make your buying experience as smooth and convenient as
+          possible. That’s why we offer a range of easy payment options designed to fit your needs.
         </p>
         <router-link to="/" class="btn">read more</router-link>
       </div>
+    </div>
+    <div class="test">
+      <h4>Key Features</h4>
+      <p>
+        Explore the exceptional benefits of EcoPallets. Our products are crafted from sustainable
+        materials, providing robust durability and reliability for all your shipping requirements.
+        With customizable solutions designed to fit your exact needs and a strong commitment to
+        eco-friendly practices, EcoPallets offers cost-effective, high-quality pallet options that
+        prioritize sustainability and performance.
+      </p>
+
+      <p>
+        Discover the unique advantages of EcoPallets. Our products are made from sustainable
+        materials, ensuring durability and reliability for all your shipping needs. With custom
+        solutions tailored to your specifications and a commitment to eco-friendly practices,
+        EcoPallets offers cost-effective and high-quality pallet options that support both your
+        business and the environment.
+      </p>
     </div>
   </section>
 </template>
@@ -43,7 +62,7 @@
   gap: 1.5rem;
 }
 .feature .box-container .box {
-  padding: 3rem 2rem;
+  padding: 2rem 1rem;
   background: #fff;
   outline: var(--outline);
   outline-offset: -1rem;
@@ -69,6 +88,24 @@
   line-height: 1.8;
   color: var(--light-color);
   padding: 1rem 0;
+}
+.test {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 10px;
+  gap: 10px;
+}
+.test h4 {
+  font-size: 28pt;
+  margin-bottom: 10px;
+}
+
+.test p {
+  font-size: large;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 /* Media Queries */

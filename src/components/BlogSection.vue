@@ -4,7 +4,7 @@
 
     <div class="box-container">
       <div class="box">
-        <img src="../assets/wood.jpg" alt="" />
+        <img src="../assets/man.avif" alt="" />
         <div class="content">
           <div class="icons">
             <router-link to="/"
@@ -16,9 +16,10 @@
               user</router-link
             >
           </div>
-          <h3>Fresh organic vegetables and fruits</h3>
+          <h3>Customer Success Stories</h3>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur accusantium velit, aut
+            Read inspiring stories from our customers who have transformed their logistics
+            operations with EcoPallets
           </p>
           <router-link to="/" class="btn">read more</router-link>
         </div>
@@ -37,16 +38,17 @@
               user</router-link
             >
           </div>
-          <h3>Fresh organic vegetables and fruits</h3>
+          <h3>Benefits of Wood Pallets</h3>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur accusantium velit, aut
+            Discover the advantages of choosing wood pallets for your shipping needs.covers
+            everything you need to know about wood pallets
           </p>
           <router-link to="/" class="btn">read more</router-link>
         </div>
       </div>
 
       <div class="box">
-        <img src="../assets/wood.jpg" alt="" />
+        <img src="../assets/laserpen1.jpg" alt="" />
         <div class="content">
           <div class="icons">
             <router-link to="/"
@@ -58,9 +60,10 @@
               user</router-link
             >
           </div>
-          <h3>Fresh organic vegetables and fruits</h3>
+          <h3>Start Exploring</h3>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur accusantium velit, aut
+            Read inspiring stories from our customers who have transformed their logistics
+            operations with EcoPallets.
           </p>
           <router-link to="/" class="btn">read more</router-link>
         </div>

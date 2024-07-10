@@ -6,6 +6,7 @@
       <AboutSection />
       <FeatureComp />
       <CategoryComp />
+      <PictureSection />
       <ReviewsComp />
       <BlogSection />
       <FooterSection />
@@ -22,6 +23,7 @@ import ReviewsComp from '@/components/ReviewsSection.vue'
 import BlogSection from '@/components/BlogSection.vue'
 import FooterSection from '@/components/FooterSection.vue'
 import AboutSection from '@/components/AboutSection.vue'
+import PictureSection from '@/components/PictureSection.vue'
 </script>
 
 <style setup>

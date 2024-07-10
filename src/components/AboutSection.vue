@@ -8,19 +8,22 @@
         <div class="article">
           <h3>About <span>company</span></h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam inventore, porro cumque
-            aspernatur repellendus at accusantium fugiat esse voluptatem et veniam eum similique
-            dolores perspiciatis laborum dolore a corrupti dignissimos excepturi molestias. Illum
-            sed voluptatem dolorem ex labore voluptate dolorum aliquid incidunt minima quod nostrum
-            provident repudiandae, animi sit nisi!
+            At EcoPallets, our mission is to revolutionize the shipping industry with sustainable,
+            high-quality pallet solutions. We are dedicated to reducing environmental impact by
+            providing eco-friendly pallets that do not compromise on strength or durability.
           </p>
 
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam inventore, porro cumque
-            aspernatur repellendus at accusantium fugiat esse voluptatem et veniam eum similique
-            dolores perspiciatis laborum dolore a corrupti dignissimos excepturi molestias. Illum
-            sed voluptatem dolorem ex labore voluptate dolorum aliquid incidunt minima quod nostrum
-            provident repudiandae, animi sit nisi!
+            Founded in [Year], EcoPallets began with a vision to create a greener future for
+            logistics and shipping. What started as a small initiative has now grown into a leading
+            provider of sustainable pallet solutions, trusted by businesses across various
+            industries.
+          </p>
+
+          <p>
+            Our team is a diverse group of passionate individuals with expertise in sustainability,
+            logistics, and customer service. We work together to deliver the best products and
+            experiences for our clients. Meet the people who make it all possible:
           </p>
           <button class="btn">see more</button>
         </div>
