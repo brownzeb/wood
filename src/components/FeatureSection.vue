@@ -1,6 +1,6 @@
 <template>
   <section class="feature">
-    <h1 class="heading">our <span>features</span></h1>
+    <h1 class="heading">New <span>products</span></h1>
 
     <div class="box-container">
       <div class="box">

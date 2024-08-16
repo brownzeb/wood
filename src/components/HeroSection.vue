@@ -14,42 +14,47 @@
 .hero {
   display: flex;
   align-items: center;
-  justify-content: center;
-  background: url(../assets/background1.jpg);
+  height: 400px;
+  justify-content: flex-start; /* Align content to the left */
+  background: url(../assets/itel1.jpg);
   background-position: center;
   background-size: cover;
   padding-top: 17rem;
   padding-bottom: 10rem;
-  /* opacity: 0.9; */
   filter: brightness(50%);
+  padding-left: 6rem;
 }
 
 .hero .content {
-  text-align: center;
-  width: 60rem;
+  display: flex;
+  flex-direction: column;
+  text-align: left; /* Align text to the left */
+  width: 30rem;
 }
 
 .hero .content h3 {
-  color: rgb(138, 138, 194);
-  font-size: 3rem;
+  color: black;
+  font-size: 2rem;
 }
 
 .hero .content span {
-  color: #fff;
-  font-size: 3rem;
+  color: brown;
+  font-size: 2rem;
 }
 
 .hero .content p {
-  color: #fff;
-
-  font-size: 1.5rem;
-  padding: 1rem 0rem;
+  color: black;
+  font-size: 1rem;
+  padding: 1rem 0;
 }
 
 /* Media Queries */
 @media (max-width: 1200px) {
+  .hero {
+    padding-left: 4rem;
+  }
   .hero .content {
-    width: 50rem;
+    width: 40rem;
   }
   .hero .content h3,
   .hero .content span {
@@ -61,8 +66,8 @@
 }
 
 @media (max-width: 992px) {
-  .hero .content {
-    width: 40rem;
+  .hero {
+    padding-left: 3rem;
   }
   .hero .content h3,
   .hero .content span {
@@ -75,8 +80,7 @@
 
 @media (max-width: 768px) {
   .hero {
-    padding-top: 15rem;
-    padding-bottom: 8rem;
+    padding-left: 2rem;
   }
   .hero .content {
     width: 30rem;
@@ -92,12 +96,10 @@
 
 @media (max-width: 576px) {
   .hero {
-    padding-top: 12rem;
-    padding-bottom: 6rem;
+    padding-left: 1rem;
   }
   .hero .content {
     width: 100%;
-    padding: 0 1rem;
   }
   .hero .content h3,
   .hero .content span {
@@ -109,14 +111,6 @@
 }
 
 @media (max-width: 480px) {
-  .hero {
-    padding-top: 10rem;
-    padding-bottom: 5rem;
-  }
-  .hero .content {
-    width: 100%;
-    padding: 0 1rem;
-  }
   .hero .content h3,
   .hero .content span {
     font-size: 1.5rem;
@@ -127,14 +121,6 @@
 }
 
 @media (max-width: 360px) {
-  .hero {
-    padding-top: 8rem;
-    padding-bottom: 4rem;
-  }
-  .hero .content {
-    width: 100%;
-    padding: 0 1rem;
-  }
   .hero .content h3,
   .hero .content span {
     font-size: 1.2rem;

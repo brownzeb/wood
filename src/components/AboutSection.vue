@@ -1,31 +1,34 @@
 <template>
   <section class="about">
-    <h1 class="heading">our <span>features</span></h1>
+    <h1 class="heading">new products</h1>
     <div class="box-container">
+      <div class="box1">
+        <div class="text1">
+          <h2>S24</h2>
+          <p>10MP Clear Imaging</p>
+        </div>
+      </div>
       <div class="box">
-        <img src="../assets/about.jpg" alt="" />
-
-        <div class="article">
-          <h3>About <span>company</span></h3>
-          <p>
-            At EcoPallets, our mission is to revolutionize the shipping industry with sustainable,
-            high-quality pallet solutions. We are dedicated to reducing environmental impact by
-            providing eco-friendly pallets that do not compromise on strength or durability.
-          </p>
-
-          <p>
-            Founded in [Year], EcoPallets began with a vision to create a greener future for
-            logistics and shipping. What started as a small initiative has now grown into a leading
-            provider of sustainable pallet solutions, trusted by businesses across various
-            industries.
-          </p>
-
-          <p>
-            Our team is a diverse group of passionate individuals with expertise in sustainability,
-            logistics, and customer service. We work together to deliver the best products and
-            experiences for our clients. Meet the people who make it all possible:
-          </p>
-          <button class="btn">see more</button>
+        <div class="card">
+          <img src="../assets/about.jpg" alt="" />
+          <div class="text">
+            <h2>ps2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="../assets/about.jpg" alt="" />
+          <div class="text">
+            <h2>ps2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="../assets/about.jpg" alt="" />
+          <div class="text">
+            <h2>ps2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+          </div>
         </div>
       </div>
     </div>
@@ -33,55 +36,97 @@
 </template>
 
 <style scoped>
-.about .box-container .box {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  gap: 1.5rem;
-}
-.about .box-container .box img {
-  height: 500px;
-  width: 500px;
-}
-.about .box-container .box .article h3 {
-  font-size: 28pt;
+.box1 {
+  height: 350px;
+  width: 100%;
+  background-color: blue;
   margin-bottom: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 20px;
+  background-image: url(../assets/itel1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-.about .box-container .box .article h3 span {
-  color: var(--orange);
+.text1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 10px;
 }
-.about .box-container .box .article p {
-  font-size: large;
-  margin-bottom: 20px;
+.text1 h2 {
+  font-size: 32px;
+  font-weight: 800;
+}
+.text1 p {
+  font-size: 18px;
+  font-weight: 300;
+}
+.box {
+  display: flex;
+  gap: 10px;
+}
+.box .card:first-child {
+  width: 600px; /* Adjust this value as needed */
+}
+.card {
+  background-color: white;
+  border-radius: 10px;
+  width: 400px;
+}
+.card img {
+  width: 100%;
+  height: 200px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.text {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+}
+@media screen and (max-width: 768px) {
+  .box1 {
+    height: 250px; /* Adjust height for smaller screens */
+  }
+
+  .text1 h2 {
+    font-size: 24px; /* Adjust text size for smaller screens */
+  }
+
+  .text1 p {
+    font-size: 16px;
+  }
+
+  .card {
+    width: 100%;
+    flex: 1 1 100%;
+  }
 }
 
-@media (max-width: 480px) {
-  .about .box-container .box {
-    /* margin: 0rem 9rem; */
+@media screen and (max-width: 480px) {
+  .box1 {
+    height: 200px; /* Further adjustments for very small screens */
+    padding-left: 10px;
+  }
 
-    /* padding-right: 11rem;
-    padding-left: 11rem; */
-    /* width: 30%; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  .text1 h2 {
+    font-size: 20px;
   }
-  .about .box-container .box img {
-    height: 200px;
-    width: 200px;
-  }
-  .about .box-container .box .article h3 {
-    font-size: 28px;
-    /* margin-right: 40px; */
-    /* padding: 0.5rem; */
-  }
-  .about .box-container .box .article p {
-    font-size: 18px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
-    /* padding: 0.5rem 2rem; */
-    /* text-align: center; */
+  .text1 p {
+    font-size: 14px;
+  }
+
+  .card img {
+    height: 150px;
   }
 }
 </style>
