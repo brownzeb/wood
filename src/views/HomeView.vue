@@ -3,12 +3,12 @@
     <HeaderComp />
     <main>
       <HeroComp />
-      <AboutSection />
       <FeatureComp />
-      <CategoryComp />
-      <PictureSection />
-      <ReviewsComp />
-      <BlogSection />
+      <AboutSection />
+      <!-- <CategoryComp /> -->
+      <!-- <PictureSection /> -->
+      <!-- <ReviewsComp /> -->
+      <!-- <BlogSection />   -->
       <FooterSection />
     </main>
   </main>

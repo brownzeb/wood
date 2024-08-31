@@ -1,6 +1,10 @@
 import { defineStore } from 'pinia'
-import Stringerpallate from '@/assets/Stringerpallate.jpg'
-import blockpallate from '@/assets/blockpallate.jpg'
+// import Stringerpallate from '@/assets/Stringerpallate.jpg'
+import headset from '@/assets/headset.png';
+import itelphoto2 from '@/assets/itelphoto2.png';
+import itelphoto1 from '@/assets/itelphoto1.png';
+import itelphoto3 from '@/assets/itelphoto3.jpeg';
+import images from '@/assets/images.jpeg';
 import doublefacepallate from '@/assets/doublefacepallate.jpg'
 import fourthproduct from '@/assets/fourth-product.jpg'
 import wingpallate from '@/assets/wingpallate.jpg'
@@ -22,80 +26,81 @@ export const useProductStore = defineStore('productStore', {
     products: [
       {
         id: 1,
-        title: 'Stringer Pallets',
+        title: 'phone 1',
         description:
           'Stringer pallets are constructed with a series of parallel boards, known as stringers, that run along the length of the pallet. These stringers support the deck boards on top, creating a sturdy platform for carrying loads. The standard dimensions for stringer pallets are typically 48 x 40 inches, but they can come in various sizes to meet specific needs.',
-        image: Stringerpallate,
+        image: headset,
         prize: '$4.08',
         cart: false,
         quantity: 1
       },
       {
         id: 2,
-        title: 'Block Pallets',
+        title: 'phone 2',
         description:
           'Block pallets are robust and versatile pallets designed for strength and durability. They feature a construction that utilizes blocks (typically nine) to support the top and bottom deck boards. The blocks are positioned at each corner, the center of each edge, and in the middle of the pallet, providing a strong and stable base for heavy loads. ',
-        image: firstproduct,
+        // image: firstproduct,
+        image: itelphoto2,
         prize: '$6.18',
         cart: false,
         quantity: 2
       },
       {
         id: 3,
-        title: 'Double-Face Pallet',
+        title: 'phone 3',
         description:
           'Double-face pallets are designed with deck boards on both the top and bottom surfaces, providing a more stable and durable platform for various loads. This construction makes them suitable for applications requiring higher strength and stability compared to single-face pallets. ',
-        image: doublefacepallate,
+        image: itelphoto1,
         prize: '$12.00',
         cart: false,
         quantity: 1
       },
       {
         id: 4,
-        title: 'Single-Face Pallets',
+        title: 'phone 4',
         description:
           'Single-face pallets are designed with deck boards on one side only, leaving the other side open. This simple and lightweight design makes them ideal for specific applications where a bottom deck is not necessary. The single-face construction can include either a solid deck or spaced deck boards, depending on the requirements. ',
-        image: fourthproduct,
+        image: itelphoto3,
         prize: '$9.23',
         cart: false,
         quantity: 1
       },
       {
         id: 5,
-        title: 'Winged Pallets',
+        title: 'phone 5',
         description:
           'Winged pallets are a specific type of pallet characterized by deck boards that extend beyond the stringers or blocks, creating a "wing" on one or more sides. This design provides additional surface area, which can enhance the stability and support of the load. The wings can vary in size and can be present on all four sides or just on two opposite sides. ',
-        image: wingpallate,
+        image: images,
         prize: '$4.25',
         cart: false,
         quantity: 3
       },
       {
         id: 6,
-        title: 'Solid Deck Pallets',
+        title: 'phone 6',
         description:
           'Solid deck pallets are designed with a continuous, flat top deck surface, which eliminates gaps between the deck boards. This design provides a smooth and even surface, making them ideal for transporting small, loose, or irregularly shaped items that might otherwise fall through the spaces in standard pallets. ',
-        image: soliddeck,
+          image: itelphoto2,
         prize: '$320.0',
         cart: false,
         quantity: 3
       },
       {
         id: 7,
-        title: 'Custom Pallets',
+        title: 'phone 7',
         description:
           'Custom pallets are specially designed to meet unique specifications and requirements that standard pallets cannot fulfill. These pallets can be tailored in terms of size, shape, materials, load capacity, and additional features to suit specific applications and industries. ',
-        image: custompallate,
+          image: itelphoto2,
         prize: '$40.0',
         cart: false,
         quantity: 3
       },
       {
         id: 8,
-        title: 'Recycled Pallets',
+        title: 'phone 8',
         description:
           'Recycled pallets are refurbished from previously used pallets that have been repaired, reconditioned, and sometimes reassembled to extend their lifespan. They are made by recovering usable wood and components from old or damaged pallets, which are then used to create functional pallets that meet various industry standards and specifications.',
-        image: recyclepallate,
+        image: headset,
         prize: '$7.40',
         cart: false,
         quantity: 3
@@ -104,70 +109,80 @@ export const useProductStore = defineStore('productStore', {
       // for pen
       {
         id: 9,
-        title: 'Engraving laser pens',
+        title: 'phone 9',
         description:
           'These are used to engrave designs on materials like wood, metal, glass, and plastic. They are often used in DIY projects, personalized gifts, and art.',
-        image: engraving,
+        image: headset,
         prize: '$52.0',
         cart: false,
         quantity: 1
       },
       {
         id: 10,
-        title: 'Cutting Laser Pens',
+        title: 'phone 1',
         description:
           ' These are more powerful and are used to cut through materials like fabric, paper, cardboard, and thin wood. They are popular in model making and crafting.',
-        image: electric,
+        image: itelphoto2,
         prize: '$1,350',
         cart: false,
         quantity: 1
       },
       {
         id: 11,
-        title: 'Etching Laser Pen',
+        title: 'phone 2',
         description:
           ' Similar to engraving pens but typically used for finer, more detailed work on materials like glass, metal, and stone.',
-        image: etching,
+        image: itelphoto1,
         prize: '$62.0',
         cart: false,
         quantity: 1
       },
       {
         id: 12,
-        title: 'Laser Pointer Pens:',
+        title: 'phone 4:',
         description:
           '  While primarily used for presentations, some advanced laser pointers can be used in light crafting for marking or tracing designs.',
-        image: lasser,
+        image: itelphoto3,
         prize: '$21.63',
         cart: false,
         quantity: 1
       },
       {
         id: 13,
-        title: 'Coaster for Drinks and for kids use',
+        title: 'phone 5',
         description:
           '  While primarily used for presentations, some advanced laser pointers can be used in light crafting for marking or tracing designs.',
-        image: coaster,
+        image: itelphoto1,
         prize: '$4.23',
         cart: false,
         quantity: 1
       },
       {
         id: 14,
-        title: 'Craft wood Board',
+        title: 'phone 6',
         description:
           '  While primarily used for presentations, some advanced laser pointers can be used in light crafting for marking or tracing designs.',
-        image: card1,
+        image: itelphoto2,
         prize: '$6.14',
         cart: false,
         quantity: 1
       },
       {
         id: 15,
-        title: 'Craft wood Board',
+        title: 'phone ',
         description:
           '  While primarily used for presentations, some advanced laser pointers can be used in light crafting for marking or tracing designs.',
-        image: card2,
+        image: headset,
+        prize: '$10.0',
+        cart: false,
+        quantity: 1
+      },
+      {
+        id: 15,
+        title: 'phone ',
+        description:
+          '  While primarily used for presentations, some advanced laser pointers can be used in light crafting for marking or tracing designs.',
+        image: headset,
         prize: '$10.0',
         cart: false,
         quantity: 1

@@ -10,21 +10,21 @@
       </div>
       <div class="box">
         <div class="card">
-          <img src="../assets/about.jpg" alt="" />
+          <img src="../assets/smartwatch.png" alt="" />
           <div class="text">
             <h2>ps2</h2>
             <p>Lorem ipsum dolor sit amet consectetur.</p>
           </div>
         </div>
         <div class="card">
-          <img src="../assets/about.jpg" alt="" />
+          <img src="../assets/powerbank.png" alt="" />
           <div class="text">
             <h2>ps2</h2>
             <p>Lorem ipsum dolor sit amet consectetur.</p>
           </div>
         </div>
         <div class="card">
-          <img src="../assets/about.jpg" alt="" />
+          <img src="../assets/power.png" alt="" />
           <div class="text">
             <h2>ps2</h2>
             <p>Lorem ipsum dolor sit amet consectetur.</p>
@@ -46,7 +46,7 @@
   align-items: center;
   justify-content: flex-start;
   padding-left: 20px;
-  background-image: url(../assets/itel1.jpg);
+  background-image: url(../assets/chiderabackground.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

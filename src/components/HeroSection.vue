@@ -16,12 +16,12 @@
   align-items: center;
   height: 400px;
   justify-content: flex-start; /* Align content to the left */
-  background: url(../assets/itel1.jpg);
+  background: url(../assets/chiderabackground.jpg);
   background-position: center;
   background-size: cover;
   padding-top: 17rem;
   padding-bottom: 10rem;
-  filter: brightness(50%);
+  /* filter: brightness(50%); */
   padding-left: 6rem;
 }
 
